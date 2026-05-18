@@ -1,10 +1,12 @@
-const CACHE_NAME = 'after-client-shell-v3';
+const CACHE_NAME = 'after-client-shell-v5';
 
 const ARQUIVOS_PARA_CACHE = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './FAVICON.png'
+  './FAVICON.png',
+  './icon-192.png',
+  './icon-512.png'
 ];
 
 self.addEventListener('install', function(event) {
